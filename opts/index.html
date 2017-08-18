@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Opts</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css">
+  </head>
+
+  <body>
+
+    <script type="text/javascript">
+      var data = {
+        id: 123,
+        name: '名前',
+        text: 'オブジェクトごとも渡せます'
+      };
+    </script>
+
+    <app
+      title="テキスト"
+      tags="{ ['配列', 'でも', '渡せます', '！'] }"
+      data="{ data }"
+      camel-case="camel-case to CamelCase"
+      value="value to riotValue">
+    </app>
+
+    <!-- riot tags -->
+    <script type="riot/tag" src="app.tag"></script>
+
+    <!-- scripts we need -->
+    <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
+
+    <!-- mount this app -->
+    <script>
+      riot.compile(function() {
+        riot.mount('*')
+      })
+    </script>
+
+  </body>
+
+</html>
