@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- scripts we need -->
+    <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <re-header></re-header>
+
+    <div class="top-inner">
+      <p class="top-inner__link"><a href="event-handlers/" target="_blank">event-handlers</a></p>
+      <p class="top-inner__link"><a href="tag-instance/" target="_blank">tag-instance</a></p>
+      <p class="top-inner__link"><a href="yield/" target="_blank">yield</a></p>
+      <p class="top-inner__link"><a href="unescaped/" target="_blank">unescaped</a></p>
+      <p class="top-inner__link"><a href="event-handlers-arg/" target="_blank">event-handlers-arg</a></p>
+      <p class="top-inner__link"><a href="data-is/" target="_blank">data-is</a></p>
+      <p class="top-inner__link"><a href="lifecycle/" target="_blank">lifecycle</a></p>
+      <p class="top-inner__link"><a href="modal/" target="_blank">modal</a></p>
+      <p class="top-inner__link"><a href="opts/" target="_blank">opts</a></p>
+      <p class="top-inner__link"><a href="opts-php/index.php" target="_blank">opts-php</a></p>
+    </div>
+
+    <!-- riot tags -->
+    <script type="riot/tag" src="./_common/re-header.tag"></script>
+
+    <!-- mount this app -->
+    <script>
+      riot.compile(function() { riot.mount('*'); });
+    </script>
+  </body>
+</html>

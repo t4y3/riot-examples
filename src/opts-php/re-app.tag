@@ -1,9 +1,5 @@
-<app>
-  <p>
-    注意点<br>
-    xxx-yyyの形式で渡した場合は、キャメルケースに変換される<br>
-    例) camel-case -> camelCase
-  </p>
+<re-app>
+  <h2>PHP変数をoptsで渡す</h2>
 
   <pre class="prettyprint">
 // optsの中身を表示
@@ -24,4 +20,4 @@
     });
   </script>
 
-</app>
+</re-app>

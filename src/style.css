@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin : 0;
+}
+
+.top-inner {
+  width: 80%;
+  max-width: 640px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.top-inner__link {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.top-inner__link a {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+.top-inner__link a:hover {
+  text-decoration: underline;
+}

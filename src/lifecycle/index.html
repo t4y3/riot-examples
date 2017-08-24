@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Life Cycle</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- scripts we need -->
+    <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
+    <style media="screen">* { margin: 0; }</style>
+  </head>
+  <body>
+    <re-header></re-header>
+    <re-parent></re-parent>
+
+    <!-- riot tags -->
+    <script type="riot/tag" src="../_common/re-header.tag"></script>
+    <script type="riot/tag" src="re-parent.tag"></script>
+    <script type="riot/tag" src="re-child.tag"></script>
+
+    <!-- mount this app -->
+    <script>
+      riot.compile(function() { riot.mount('*'); });
+    </script>
+  </body>
+</html>

@@ -1,7 +1,7 @@
-<app>
-  <modal>
+<re-app>
+  <re-modal>
     <p>モーダル表示します</p>
-  </modal>
+  </re-modal>
 
   <style scoped>
     :scope {
@@ -15,4 +15,4 @@
 
   </script>
 
-</app>
+</re-app>

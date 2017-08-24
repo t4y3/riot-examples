@@ -1,4 +1,4 @@
-<close-btn>
+<re-close-btn>
 
   <style scoped>
     /* 円 */
@@ -36,7 +36,4 @@
     }
   </style>
 
-  <script>
-  </script>
-
-</close-btn>
+</re-close-btn>
