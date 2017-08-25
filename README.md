@@ -12,5 +12,5 @@ npm start
 ## Push
 
 ```sh
-plunk --dir lifecycle/ --desc "Riot Example - lifecycle" --tags "riot"
+plunk --dir src/lifecycle/ --desc "Riot Example - lifecycle" --tags "riot"
 ```
